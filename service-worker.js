@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/my-assessment/precache-manifest.eafdbb6679abb4c5f4057c02fb3e47ef.js"
+  "/RashCD/my-assessment/precache-manifest.ce8a6c54eb4294adb06f6bb5376d3294.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/my-assessment/index.html", {
+workbox.routing.registerNavigationRoute("/RashCD/my-assessment/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
